@@ -1,4 +1,4 @@
-import { Text } from "../components";
+import { CovidAjax, Text } from "../components";
 
 export const HomePage = () => {
   return (
@@ -7,6 +7,7 @@ export const HomePage = () => {
       <Text>Sample components</Text>
       <Text>Simple Jest tests</Text>
       <Text>React Router v6</Text>
+      <CovidAjax />
     </>
   );
 };
